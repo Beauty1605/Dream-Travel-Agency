@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f2f2f2; }
+        header { background:#1e90ff; color:white; padding:20px; text-align:center; }
+        nav { background:#333; padding:10px; }
+        nav a { color:white; margin:10px; text-decoration:none; }
+        .container { width:80%; margin:auto; padding:20px; }
+
+        .section { background:white; padding:20px; margin-bottom:20px; border-radius:6px; }
+        .gallery img { width:30%; margin:1%; border-radius:6px; }
+        .booking input, .booking select { width:100%; padding:10px; margin:6px 0; }
+        button { padding:10px 20px; background:#1e90ff; color:white; border:none; cursor:pointer; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dream Travel Agency</h1>
+    <p>Explore the world with us!</p>
+</header>
+
+<nav>
+    <a href="#packages">Tour Packages</a>
+    <a href="#booking">Booking</a>
+    <a href="#tips">Travel Tips</a>
+    <a href="#gallery">Gallery</a>
+</nav>
+
+<div class="container">
+
+    <!-- Tour Packages -->
+    <div class="section" id="packages">
+        <h2>Popular Tour Packages</h2>
+        <ul>
+            <li><strong>Goa Trip</strong> — 3 Days, ₹6,999</li>
+            <li><strong>Manali Adventure</strong> — 5 Days, ₹12,499</li>
+            <li><strong>Kashmir Paradise</strong> — 6 Days, ₹18,999</li>
+            <li><strong>Thailand Special</strong> — 4 Days, ₹25,999</li>
+        </ul>
+    </div>
+
+    <!-- Booking Form -->
+    <div class="section booking" id="booking">
+        <h2>Book Your Trip</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <select>
+            <option>Select Package</option>
+            <option>Goa Trip</option>
+            <option>Manali Adventure</option>
+            <option>Kashmir Paradise</option>
+            <option>Thailand Special</option>
+        </select>
+        <input type="date">
+        <button>Book Now</button>
+    </div>
+
+    <!-- Travel Tips -->
+    <div class="section" id="tips">
+        <h2>Travel Tips</h2>
+        <p>✔ Always carry a copy of your ID.</p>
+        <p>✔ Keep essential medicines with you.</p>
+        <p>✔ Travel light and smart.</p>
+        <p>✔ Check weather before packing.</p>
+    </div>
+
+    <!-- Gallery -->
+    <div class="section gallery" id="gallery">
+        <h2>Travel Destinations Gallery</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Destination 1">
+        <img src="https://via.placeholder.com/300x200" alt="Destination 2">
+        <img src="https://via.placeholder.com/300x200" alt="Destination 3">
+    </div>
+
+</div>
+
+</body>
+</html>
